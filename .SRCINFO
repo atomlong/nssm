@@ -1,0 +1,13 @@
+pkgbase = nssm
+	pkgdesc = The Non-Sucking Service Manager
+	pkgver = 2.24
+	pkgrel = 1
+	url = https://nssm.cc/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	options = !strip
+	source = nssm::git+https://git.nssm.cc/nssm/nssm.git
+	sha256sums = SKIP
+
+pkgname = nssm
